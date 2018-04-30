@@ -166,7 +166,7 @@
     },
     {
       "name": "String",
-      "scope": "string.quoted",
+      "scope": "string.quoted, string.interpolated",
       "settings": {
         "foreground": "#a9cfa4"
       }
