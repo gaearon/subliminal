@@ -1,22 +1,41 @@
 {
-    "name": "subliminal",
-    "displayName": "Subliminal",
-    "description": "TODO",
-    "version": "0.0.1",
-    "publisher": "TODO",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Subliminal",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Subliminal-color-theme.json"
-            }
-        ]
-    }
+  "name": "subliminal",
+  "displayName": "Subliminal",
+  "description": "An opinionated minimalistic VS Code theme",
+  "license": "SEE LICENSE IN LICENSE",
+  "version": "1.0.0",
+  "publisher": "gaearon",
+  "preview": true,
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "theme",
+    "night",
+    "minimal",
+    "oceanic",
+    "onedark",
+    "dark",
+    "sublime",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/subliminal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaearon/subliminal/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Subliminal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Subliminal-color-theme.json"
+      }
+    ]
+  }
 }
