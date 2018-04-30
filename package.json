@@ -12,13 +12,10 @@
   "icon": "icon.png",
   "keywords": [
     "theme",
-    "night",
     "minimal",
     "oceanic",
-    "onedark",
     "dark",
-    "sublime",
-    "color-theme"
+    "sublime"
   ],
   "repository": {
     "type": "git",
