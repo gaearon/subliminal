@@ -9,6 +9,7 @@
   "engines": {
     "vscode": "^1.22.0"
   },
+  "icon": "icon.png",
   "keywords": [
     "theme",
     "night",
