@@ -1,0 +1,22 @@
+{
+    "name": "subliminal",
+    "displayName": "Subliminal",
+    "description": "TODO",
+    "version": "0.0.1",
+    "publisher": "TODO",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Subliminal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Subliminal-color-theme.json"
+            }
+        ]
+    }
+}
