@@ -50,6 +50,8 @@ I suggest to memorize these shortcuts instead:
 * <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>D</kbd> for Debugger.  
 * <kbd>command</kbd> + <kbd>B</kbd> to show and hide the left pane.
 
+Since we turned off Code’s default matching brackets highlighting, install [this extension](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) that does it better.
+
 Furthermore, to reduce the noise I prefer to turn off some features:
 
 ```js
