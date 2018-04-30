@@ -2,6 +2,8 @@
 
 **Subliminal** is an opinionated minimalistic VS Code theme that is very loosely based on [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) and [Spacegray](https://github.com/kkga/spacegray). See [Credits](#credits) for a detailed lineage.
 
+![Screenshot](https://i.imgur.com/LOA6KW8.png)
+
 ## Disclaimer
 
 I’m just sharing what works for me. I’m an engineer and not a graphic designer.
