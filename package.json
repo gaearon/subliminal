@@ -1,7 +1,7 @@
 {
   "name": "subliminal",
   "displayName": "Subliminal",
-  "description": "An opinionated minimalistic VS Code theme",
+  "description": "An opinionated minimalistic VS Code theme for JavaScript inspired by Sublime Text Spacegray theme",
   "license": "SEE LICENSE IN LICENSE",
   "version": "1.0.0",
   "publisher": "gaearon",
