@@ -117,7 +117,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword, storage.type.js, storage.type.function.js, variable.other.flowtype.js, storage.type.extends.js, storage.type.function.js, storage.type.class.js",
+      "scope": "keyword, storage.type.js, storage.type.function.js, storage.modifier.async.js, variable.other.flowtype.js, storage.type.extends.js, storage.type.class.js",
       "settings": {
         "foreground": "#7F7F7F"
       }
