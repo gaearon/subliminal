@@ -123,6 +123,13 @@
       }
     },
     {
+      "name": "ES Modules",
+      "scope": "keyword.control.import.js, keyword.control.export.js",
+      "settings": {
+        "fontStyle": "italic",
+      }
+    },
+    {
       "name": "Function Call",
       "scope": "variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js, entity.name.tag.jsx, variable.function.constructor.js",
       "settings": {
