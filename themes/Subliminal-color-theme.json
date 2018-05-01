@@ -172,13 +172,47 @@
       }
     },
     {
+      "name": "Template Literals string",
+      "scope": "string.template.js",
+      "settings": {
+        "foreground": "#a9cfa4",
+      }
+    },
+    {
+      "name": "Template Literals backticks",
+      "scope": "punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
+      "settings": {
+        "foreground": "#a9cfa4",
+      }
+    },
+    {
+      "name": "Template Literals expression brackets",
+      "scope": "punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js",
+      "settings": {
+        "foreground": "#7F7F7F",
+      }
+    },
+    {
+      "name": "Template Literals expressions",
+      "scope": "meta.template.expression.js",
+      "settings": {
+        "foreground": "#d4d4d4",
+      }
+    },
+    {
+      "name": "Template Literals tags",
+      "scope": "entity.name.function.tagged-template.js",
+      "settings": {
+        "foreground": "#f1a5ab",
+      }
+    },
+    {
       "name": "Literal",
       "scope": "constant.language, constant.numeric, support.constant, constant.character, constant.other.color, constant.other.symbol, constant.other.key, keyword.other.unit",
       "settings": {
         "foreground": "#91c5d3"
       }
     },
-
     {
       "name": "Inserted",
       "scope": "markup.inserted",
