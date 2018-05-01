@@ -123,6 +123,14 @@
       }
     },
     {
+      "name": "Keyword This",
+      "scope": "variable.language.this.js",
+      "settings": {
+        "foreground": "#91c5d3",
+        "fontStyle": "italic bold",
+      }
+    },
+    {
       "name": "Function Call",
       "scope": "variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js, entity.name.tag.jsx, variable.function.constructor.js",
       "settings": {
