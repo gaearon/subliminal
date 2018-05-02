@@ -138,7 +138,7 @@
     },
     {
       "name": "Control Flow",
-      "scope": "keyword.control.flow.js, keyword.control.trycatch.js, source.js meta.group.braces.curly.js keyword.control.loop.js, keyword.control.switch.js",
+      "scope": "keyword.control.flow.js, keyword.control.trycatch.js, source.js meta.group.braces.curly.js keyword.control.loop.js, keyword.control.switch.js, keyword.operator.ternary.js",
       "settings": {
         "foreground": "#f1a5ab"
       }
