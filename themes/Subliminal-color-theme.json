@@ -124,7 +124,7 @@
     },
     {
       "name": "Function Call",
-      "scope": "variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js, entity.name.tag.jsx, variable.function.constructor.js",
+      "scope": "variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js, entity.name.tag.jsx, variable.function.constructor.js, entity.name.function.tagged-template.js",
       "settings": {
         "foreground": "#ffe2a9"
       }
