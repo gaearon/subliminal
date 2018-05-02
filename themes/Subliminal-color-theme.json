@@ -138,9 +138,17 @@
     },
     {
       "name": "Control Flow",
-      "scope": "keyword.control.flow.js, keyword.control.trycatch.js, source.js meta.group.braces.curly.js keyword.control.loop.js, keyword.control.switch.js",
+      "scope": "keyword.control.trycatch.js, source.js meta.group.braces.curly.js keyword.control.loop.js, keyword.control.switch.js",
       "settings": {
         "foreground": "#f1a5ab"
+      }
+    },
+    {
+      "name": "Control Flow Major",
+      "scope": "keyword.control.flow.js",
+      "settings": {
+        "foreground": "#91c5d3",
+        "fontStyle": "italic"
       }
     },
     {
