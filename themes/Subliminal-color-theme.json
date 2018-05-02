@@ -178,7 +178,28 @@
         "foreground": "#91c5d3"
       }
     },
-
+    {
+      "name": "HTML tag",
+      "scope": "meta.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+      "settings": {
+        "foreground": "#7F7F7F",
+      }
+    },
+    {
+      "name": "HTML tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#91c5d3",
+      }
+    },
+    {
+      "name": "HTML tag name attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ffe2a9",
+        "fontStyle": "italic",
+      }
+    },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
