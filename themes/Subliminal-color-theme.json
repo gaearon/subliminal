@@ -1,4 +1,5 @@
 {
+  "name": "Subliminal",
   "type": "dark",
   "colors": {
     // Based on One Dark + Oceanic Next
@@ -109,36 +110,41 @@
       }
     },
     {
-      "name": "Flow Typedef",
-      "scope": "meta.type.flowtype.js variable.other.flowtype.js",
+      "name": "Flow/TypeScript Typedef",
+      "scope":
+        "meta.type.flowtype.js variable.other.flowtype.js, entity.name.type.ts, entity.name.type.tsx",
       "settings": {
         "foreground": "#d4d4d4"
       }
     },
     {
       "name": "Keyword",
-      "scope": "keyword, storage.type.js, storage.type.function.js, variable.other.flowtype.js, storage.type.extends.js, storage.type.function.js, storage.type.class.js",
+      "scope":
+        "keyword, storage.type.js, storage.type.ts, storage.type.tsx, storage.type.function.js, storage.type.function.ts, storage.type.function.tsx, variable.other.flowtype.js, storage.type.extends.js, storage.type.extends.ts, storage.type.extends.tsx, storage.type.class.js, storage.type.class.ts, storage.type.class.tsx",
       "settings": {
         "foreground": "#7F7F7F"
       }
     },
     {
       "name": "Function Call",
-      "scope": "variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js, entity.name.tag.jsx, variable.function.constructor.js",
+      "scope":
+        "variable.function.js, variable.function.ts, variable.function.tsx, meta.class meta.group.braces.curly meta.function-call variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.ts, meta.class meta.group.braces.curly meta.function-call variable.function.tsx, entity.name.tag.jsx, entity.name.tag.tsx, variable.function.constructor.js, variable.function.constructor.ts, variable.function.constructor.tsx",
       "settings": {
         "foreground": "#ffe2a9"
       }
     },
     {
       "name": "Function/Class Name",
-      "scope": "entity.name.function.js, meta.class.js entity.name.class, meta.class meta.function-call variable.function.js, source.js keyword.control.loop.js, storage.type.function.arrow.js",
+      "scope":
+        "entity.name.function.js, entity.name.function.ts, entity.name.function.tsx, meta.class.js entity.name.class, meta.class.ts entity.name.class, meta.class.tsx entity.name.class, meta.class meta.function-call variable.function.js, meta.class meta.function-call variable.function.ts, meta.class meta.function-call variable.function.tsx, source.js keyword.control.loop.js, source.ts keyword.control.loop.ts, source.tsx keyword.control.loop.tsx, storage.type.function.arrow.js, storage.type.function.arrow.ts, storage.type.function.arrow.tsx",
       "settings": {
         "foreground": "#f1a5ab"
       }
     },
     {
       "name": "Control Flow",
-      "scope": "keyword.control.flow.js, keyword.control.trycatch.js, source.js meta.group.braces.curly.js keyword.control.loop.js, keyword.control.switch.js",
+      "scope":
+        "keyword.control.flow.js, keyword.control.flow.ts, keyword.control.flow.tsx, keyword.control.trycatch.js, keyword.control.trycatch.ts, keyword.control.trycatch.tsx, source.js meta.group.braces.curly.js keyword.control.loop.js, source.ts meta.group.braces.curly.ts keyword.control.loop.ts, source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx, keyword.control.switch.js, keyword.control.switch.ts, keyword.control.switch.tsx",
       "settings": {
         "foreground": "#f1a5ab"
       }
@@ -152,14 +158,16 @@
     },
     {
       "name": "Logic",
-      "scope": "keyword.operator.logical.js",
+      "scope":
+        "keyword.operator.logical.js, keyword.operator.logical.ts, keyword.operator.logical.tsx",
       "settings": {
         "foreground": "#ffe2a9"
       }
     },
     {
       "name": "Comparison",
-      "scope": "keyword.operator.comparison.js, keyword.operator.relational.js",
+      "scope":
+        "keyword.operator.comparison.js, keyword.operator.comparison.ts, keyword.operator.comparison.tsx, keyword.operator.relational.js, keyword.operator.relational.ts, keyword.operator.relational.tsx",
       "settings": {
         "foreground": "#f1a5ab"
       }
@@ -173,7 +181,8 @@
     },
     {
       "name": "Literal",
-      "scope": "constant.language, constant.numeric, support.constant, constant.character, constant.other.color, constant.other.symbol, constant.other.key, keyword.other.unit",
+      "scope":
+        "constant.language, constant.numeric, support.constant, constant.character, constant.other.color, constant.other.symbol, constant.other.key, keyword.other.unit",
       "settings": {
         "foreground": "#91c5d3"
       }
@@ -262,6 +271,7 @@
         "punctuation.section.embedded",
         "assignment.coffee",
         "entity.name.type.ts",
+        "entity.name.type.tsx",
         "italic",
         "quote",
         "type .function",
