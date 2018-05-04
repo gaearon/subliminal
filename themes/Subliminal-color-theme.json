@@ -128,7 +128,7 @@
     {
       "name": "Function Call",
       "scope":
-        "variable.function.js, variable.function.ts, variable.function.tsx, meta.class meta.group.braces.curly meta.function-call variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.ts, meta.class meta.group.braces.curly meta.function-call variable.function.tsx, entity.name.tag.jsx, entity.name.tag.tsx, variable.function.constructor.js, variable.function.constructor.ts, variable.function.constructor.tsx",
+        "variable.function.js, meta.function-call.ts entity.name.function.ts, meta.function-call.tsx entity.name.function.tsx, meta.class meta.group.braces.curly meta.function-call variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.ts, meta.class meta.group.braces.curly meta.function-call variable.function.tsx, entity.name.tag.jsx, entity.name.tag.tsx, variable.function.constructor.js, variable.function.constructor.ts, variable.function.constructor.tsx",
       "settings": {
         "foreground": "#ffe2a9"
       }
@@ -136,7 +136,7 @@
     {
       "name": "Function/Class Name",
       "scope":
-        "entity.name.function.js, entity.name.function.ts, entity.name.function.tsx, meta.class.js entity.name.class, meta.class.ts entity.name.class, meta.class.tsx entity.name.class, meta.class meta.function-call variable.function.js, meta.class meta.function-call variable.function.ts, meta.class meta.function-call variable.function.tsx, source.js keyword.control.loop.js, source.ts keyword.control.loop.ts, source.tsx keyword.control.loop.tsx, storage.type.function.arrow.js, storage.type.function.arrow.ts, storage.type.function.arrow.tsx",
+        "entity.name.function.js, entity.name.function.ts, entity.name.function.tsx, meta.class.js entity.name.class, meta.class.ts entity.name.type.class, meta.class.tsx entity.name.type.class, meta.class meta.function-call variable.function.js, meta.class meta.function-call variable.function.ts, meta.class meta.function-call variable.function.tsx, source.js keyword.control.loop.js, source.ts keyword.control.loop.ts, source.tsx keyword.control.loop.tsx, storage.type.function.arrow.js, storage.type.function.arrow.ts, storage.type.function.arrow.tsx",
       "settings": {
         "foreground": "#f1a5ab"
       }
@@ -257,11 +257,18 @@
     {
       "name": "Italic font style",
       "scope": [
-        "entity.name.function.ts",
-        "entity.name.function.tsx",
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "meta.tag.sgml.doctype.html",
+        "markup.italic.markdown",
+        "markup.quote.markdown",
         "support.type.primitive",
         "entity.other.attribute-name",
         "entity.name.tag.custom",
+        "source.js entity.other.attribute-name.js",
+        "ext.html.basic entity.other.attribute-name.html",
         "source.js.jsx keyword.control.flow.js",
         "support.type.property.css",
         "support.function.basic_functions",
@@ -270,19 +277,28 @@
         "keyword.operator.type.annotation",
         "punctuation.section.embedded",
         "assignment.coffee",
-        "entity.name.type.ts",
-        "entity.name.type.tsx",
         "italic",
         "quote",
         "type .function",
         "type.function",
         "storage.type.class",
-        "keyword.control",
         "modifier",
+        "keyword.control",
         "this"
       ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Normal font style",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "fontStyle": "normal"
       }
     }
   ]
