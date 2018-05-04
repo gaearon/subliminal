@@ -295,7 +295,8 @@
       "scope": [
         "keyword.control.import",
         "keyword.control.export",
-        "keyword.control.flow"
+        "keyword.control.flow",
+        "keyword.control.from"
       ],
       "settings": {
         "fontStyle": "normal"
