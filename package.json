@@ -10,7 +10,13 @@
     "vscode": "^1.22.0"
   },
   "icon": "icon.png",
-  "keywords": ["theme", "minimal", "oceanic", "dark", "sublime"],
+  "keywords": [
+    "theme",
+    "minimal",
+    "oceanic",
+    "dark",
+    "sublime"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gaearon/subliminal.git"
@@ -18,7 +24,9 @@
   "bugs": {
     "url": "https://github.com/gaearon/subliminal/issues"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [{
       "label": "Subliminal",
