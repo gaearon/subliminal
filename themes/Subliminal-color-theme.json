@@ -275,7 +275,6 @@
         "variable.assignment.coffee",
         "support.function.basic_functions",
         "keyword.operator.type.annotation",
-        "punctuation.section.embedded",
         "assignment.coffee",
         "italic",
         "quote",
