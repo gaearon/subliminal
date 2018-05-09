@@ -380,7 +380,10 @@
       }
     },
     {
-      "scope": "text.html.basic entity.other.attribute-name.html",
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "entity.other.attribute-name"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
