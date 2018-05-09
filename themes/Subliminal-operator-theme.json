@@ -1,5 +1,5 @@
 {
-  "name": "Subliminal",
+  "name": "Subliminal Operator",
   "type": "dark",
   "colors": {
     // Based on One Dark + Oceanic Next
@@ -100,8 +100,7 @@
     "titleBar.inactiveBackground": "#1c1f26",
     "widget.shadow": "#282c35"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -242,7 +241,7 @@
     },
     {
       "name": "Assignment",
-      "scope": ["keyword.operator.assignment"],
+      "scope": "keyword.operator.assignment",
       "settings": {
         "foreground": "#ffe2a9"
       }
@@ -256,7 +255,10 @@
     },
     {
       "name": "Logic - TypeScript",
-      "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
+      "scope": [
+        "keyword.operator.logical.ts",
+        "keyword.operator.logical.tsx"
+      ],
       "settings": {
         "foreground": "#ffe2a9"
       }
@@ -309,42 +311,42 @@
 
     {
       "name": "Inserted",
-      "scope": ["markup.inserted"],
+      "scope": "markup.inserted",
       "settings": {
         "foreground": "#99C794"
       }
     },
     {
       "name": "Deleted",
-      "scope": ["markup.deleted"],
+      "scope": "markup.deleted",
       "settings": {
         "foreground": "#E15A60"
       }
     },
     {
       "name": "Changed",
-      "scope": ["markup.changed"],
+      "scope": "markup.changed",
       "settings": {
         "foreground": "#BB80B3"
       }
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": "*url*, *link*, *uri*",
       "settings": {
         "fontStyle": "underline"
       }
     },
     {
       "name": "Search Results Nums",
-      "scope": ["constant.numeric.line-number.find-in-files - match"],
+      "scope": "constant.numeric.line-number.find-in-files - match",
       "settings": {
         "foreground": "#AB7967"
       }
     },
     {
       "name": "Search Results Lines",
-      "scope": ["entity.name.filename.find-in-files"],
+      "scope": "entity.name.filename.find-in-files",
       "settings": {
         "foreground": "#99C794"
       }
@@ -374,15 +376,51 @@
       }
     },
     {
-      "scope": "source.js entity.other.attribute-name.js",
+      "name": "Italic font style",
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "meta.tag.sgml.doctype.html",
+        "markup.italic.markdown",
+        "markup.quote.markdown",
+        "support.type.primitive",
+        "entity.other.attribute-name",
+        "entity.name.tag.custom",
+        "source.js entity.other.attribute-name.js",
+        "ext.html.basic entity.other.attribute-name.html",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.type.annotation",
+        "assignment.coffee",
+        "italic",
+        "quote",
+        "type .function",
+        "type.function",
+        "storage.modifier.js",
+        "storage.type.class",
+        "modifier",
+        "keyword.control",
+        "this"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
-      "scope": "text.html.basic entity.other.attribute-name.html",
+      "name": "Normal font style",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.flow",
+        "keyword.control.from"
+      ],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "normal"
       }
     }
   ]
