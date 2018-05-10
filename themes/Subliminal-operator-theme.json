@@ -100,7 +100,8 @@
     "titleBar.inactiveBackground": "#1c1f26",
     "widget.shadow": "#282c35"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -117,7 +118,14 @@
     },
     {
       "name": "TypeScript Typedef",
-      "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "meta.interface.ts variable.object.property.ts",
+        "meta.interface.tsx variable.object.property.tsx",
+        "meta.type.declaration.ts variable.object.property.ts",
+        "meta.type.declaration.tsx variable.object.property.tsx"
+      ],
       "settings": {
         "foreground": "#d4d4d4"
       }
@@ -146,8 +154,18 @@
         "storage.type.function.tsx",
         "storage.type.extends.ts",
         "storage.type.extends.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
         "storage.type.class.ts",
-        "storage.type.class.tsx"
+        "storage.type.class.tsx",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
       ],
       "settings": {
         "foreground": "#7F7F7F"
@@ -158,7 +176,6 @@
       "scope": [
         "variable.function.js",
         "meta.class meta.group.braces.curly meta.function-call variable.function.js",
-        "entity.name.tag.jsx",
         "variable.function.constructor.js"
       ],
       "settings": {
@@ -168,11 +185,12 @@
     {
       "name": "Function Call - TypeScript",
       "scope": [
+        "support.function.ts",
+        "support.function.tsx",
         "meta.function-call.ts entity.name.function.ts",
         "meta.function-call.tsx entity.name.function.tsx",
         "meta.class meta.group.braces.curly meta.function-call variable.function.ts",
         "meta.class meta.group.braces.curly meta.function-call variable.function.tsx",
-        "entity.name.tag.tsx",
         "variable.function.constructor.ts",
         "variable.function.constructor.tsx"
       ],
@@ -232,6 +250,8 @@
         "keyword.control.trycatch.tsx",
         "source.ts meta.group.braces.curly.ts keyword.control.loop.ts",
         "source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx",
+        "source.ts meta.export.default.ts keyword.control.default.ts",
+        "source.tsx meta.export.default.tsx keyword.control.default.tsx",
         "keyword.control.switch.ts",
         "keyword.control.switch.tsx"
       ],
@@ -255,10 +275,7 @@
     },
     {
       "name": "Logic - TypeScript",
-      "scope": [
-        "keyword.operator.logical.ts",
-        "keyword.operator.logical.tsx"
-      ],
+      "scope": ["keyword.operator.logical.ts", "keyword.operator.logical.tsx"],
       "settings": {
         "foreground": "#ffe2a9"
       }
@@ -283,6 +300,25 @@
       ],
       "settings": {
         "foreground": "#f1a5ab"
+      }
+    },
+    {
+      "name": "HTML Tag names",
+      "scope": [
+        "entity.name.tag support.class.component",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.jsx",
+        "meta.tag.other.tsx",
+        "entity.name.tag.tsx",
+        "entity.name.tag.jsx",
+        "entity.name.tag.js",
+        "entity.name.tag",
+        "meta.tag.js",
+        "meta.tag.html"
+      ],
+      "settings": {
+        "foreground": "#ffe2a9"
       }
     },
     {
