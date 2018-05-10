@@ -28,11 +28,15 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
+    "themes": [{
         "label": "Subliminal",
         "uiTheme": "vs-dark",
         "path": "./themes/Subliminal-color-theme.json"
+      },
+      {
+        "label": "Subliminal Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Subliminal-operator-theme.json"
       }
     ]
   }
