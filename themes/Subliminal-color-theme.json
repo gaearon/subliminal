@@ -73,7 +73,7 @@
     "editorGroupHeader.tabsBorder": "#282c35",
     "editorGroupHeader.tabsBackground": "#1c1f26",
     "editorGutter.background": "#282c35",
-    "editorUnnecessary.foreground": "#7f7f7f",
+    "editorUnnecessaryCode.opacity": "#00000088",
     "gitDecoration.ignoredResourceForeground": "#64727f",
     "list.activeSelectionBackground": "#343d46",
     "list.activeSelectionForeground": "#dfe1e8",
